@@ -43,8 +43,8 @@ int main(){
 		efectivo=resultado*efectivo;
 		cout<<"\nOpciones de pago: \n Pago en efectivo: "<<resultado;
 		cout<<"\n3 cuotas sin interes de: "<<resultado*3;
-		cout<<"\n6 cuotas de: "<<resultado*6;
-		cout<<"\n12 cuotas de: "<<resultado*12;
+		cout<<"\n6 cuotas de: "<<resultado*0.60*6;
+		cout<<"\n12 cuotas de: "<<resultado*0.30*12;
 
 	}else if(cantidad>=100){
 		 int mayorista=4000;
