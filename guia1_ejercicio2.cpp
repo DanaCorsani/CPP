@@ -10,8 +10,18 @@ b) Plantear el pseudocódigo del algoritmo.
 using namespace std;
 
 int main(){
+	
 	int lado=0, resultado=0;
-	cout<<"Indique el valor de un lado del cuadrado y se le dara el area de este\n";
+	
+	cout<<"Esto es un cuadrado: \n";
+	cout<<" _________\n";
+	cout<<"|         |\n";
+	cout<<"|         |\n";
+	cout<<"|         |\n";
+	cout<<"|_________|\n";
+	
+	
+	cout<<"\nIndique el valor de un lado del cuadrado y se le dara el area de este: ";
 	cin>>lado;
 	cin.ignore();
 	resultado=lado*lado;

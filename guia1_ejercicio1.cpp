@@ -14,7 +14,15 @@ using namespace std;
 int main(){
 	
 	int lado=0, resultado=0;
-	cout<<"Ingrese el valor de uno de los lados: ";
+	
+	cout<<"Esto es un cuadrado: \n";
+	cout<<" _________\n";
+	cout<<"|         |\n";
+	cout<<"|         |\n";
+	cout<<"|         |\n";
+	cout<<"|_________|\n";
+	
+	cout<<"\nIngrese el valor de uno de los lados: ";
 	cin>>lado;
 	cin.ignore();
 	resultado=lado*4; // o resultado=lado+lado+lado+lado+lado

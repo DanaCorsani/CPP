@@ -1,16 +1,17 @@
 #include <iostream>
 using namespace std;
-
 int main(){
+	
 	/*
-	3. Un algoritmo que calcule el perímetro de un rectángulo. Para esto, deberá solicitar
-	al usuario/a el o los datos necesarios del rectángulo y, por último, mostrar como
-	salida su perímetro.
+	4. Un algoritmo que calcule el área de un rectángulo. Para esto, deberá solicitar al
+	usuario/a el o los datos necesarios del rectángulo y, por último, mostrar como
+	salida su área.
 	a) Definir las variables requeridas y el tipo de cada una de ellas (entero, real,
 	carácter, cadena, lógico)
 	b) Plantear el pseudocódigo del algoritmo.
 	*/
-	float base=0, altura=0, perimetro=0;
+	
+	float base=0, altura=0, area=0;
 	
 	cout<<"Esto es un rectangulo: \n";
 	cout<<" _____________\n";
@@ -21,13 +22,15 @@ int main(){
 	cout<<"\nIngrese el valor de la base del rectangulo: ";
 	cin>>base;
 	cin.ignore();
+	
 	cout<<"Ingrese el valor de la altura del rectangulo: ";
 	cin>>altura;
 	cin.ignore();
-	perimetro=2*(base+altura);
 	
-	cout<<"Los valores ingresados fueron:\n\nBase: "<<base<<"\nAltura: "<<altura<<"\n\nEl perimetro del rectangulo es: "<<perimetro;
+	area=base*altura;
+	
+	cout<<"\nLos valores ingresados son: \n\nBase: "<<base<<"\nAltura: "<<altura<<"\n\nEl area del rectangulo es: "<<area;
+	
 	
 	return 0;
 }
-
