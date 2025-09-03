@@ -21,23 +21,29 @@ La cantidad de numeros impares ingresados fue: 7
 En este ejercicio no puede usarse arrays, porque es para Algoritmos de primer año y a septiembre, todavia no los vieron. 
 */
 
+
 #include <iostream>
 using namespace std;
 
 int main(){
 	
-	int numero=0, pares=0, impares=0;
+	int i=0, pares=0, impares=0;
 	
-	cout<<"Ingrese 12 numeros enteros: ";
-	
-	for(i=0, i<11, i++){
-		cin>>numero;
-		cin.ignore();
-		
-		
+	for(i=0; i<=11; i++){
+			int numero=0;
+				
+			cout<<"Ingrese un numero entero: ";
+			cin>>numero;
+			cin.ignore();
+			
+			if(numero%2==0){
+			pares++;
+			}else{
+			impares++;
+			}
 	}
 	
-	cout<<"La cantidad de numeros pares ingresados fue: "<<pares;	
-	
+	cout<<"\nLa cantidad de numeros pares ingresados fue: "<<pares<<"\nLa cantidad de numeros impares ingresados fue: "<<impares;
+
 	return 0;
 }
